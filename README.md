@@ -126,25 +126,6 @@ This helps future runs include context from prior interactions.
 - Quota exceeded
 - Deprecated model
 
-## Troubleshooting
-
-- `invalid_api_key`
-	- Verify `GROQ_API_KEY` in `.env`.
-
-- `insufficient_quota` / `429`
-	- Check provider billing/quota.
-
-- `model_decommissioned`
-	- Update model name in `agents.py`.
-
-- `Could not find platform independent libraries <prefix>`
-	- Usually an environment warning and may not block execution.
-
-## Notes
-
-- Do not hardcode API keys in source files.
-- Keep `.env` private and excluded from version control.
-
 ## Future Improvements
 
 - Add web UI (Streamlit/Gradio)
