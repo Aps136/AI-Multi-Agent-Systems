@@ -1,6 +1,6 @@
 from crewai import Agent
 
-# CrewAI Agent.llm expects a provider/model string or CrewAI BaseLLM.
+
 llm = "groq/llama-3.3-70b-versatile"
 
 def profile_analyzer():
