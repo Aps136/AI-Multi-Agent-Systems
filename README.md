@@ -48,7 +48,7 @@ This project takes a user's profile (skills, background, interests), analyzes ca
 5. A compact summary of the run is saved to `career_memory.json`.
 ## Architecture Diagram
 
-![Architecture Diagram](assets/archi1.png)
+![Architecture Diagram](assets/architecture.png)
 
 ## Setup
 
